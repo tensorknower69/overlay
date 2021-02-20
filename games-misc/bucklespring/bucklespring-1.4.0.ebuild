@@ -24,7 +24,7 @@ RDEPEND="${DEPEND}"
 BDEPEND="dev-util/pkgconf"
 
 src_compile() {
-	emake DESTDIR=${D} PATH_AUDIO="/usr/share/${PN}/wav"
+	emake PATH_AUDIO="/usr/share/${PN}/wav"
 }
 
 src_install() {
