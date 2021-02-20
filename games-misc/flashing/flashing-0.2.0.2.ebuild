@@ -14,6 +14,7 @@ KEYWORDS="~amd64 ~x86"
 DEPEND="
 !games-misc/flashing
 media-libs/libglvnd
+media-libs/glfw
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
