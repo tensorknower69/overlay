@@ -5,14 +5,13 @@ EAPI=7
 
 DESCRIPTION="Random color flashing starring OpenGL/GLFW"
 HOMEPAGE="https://github.com/tensorknower69/flashing"
-SRC_URI="https://github.com/tensorknower69/flashing/archive/${PV}.tar.gz"
+SRC_URI="https://github.com/tensorknower69/flashing/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-!games-misc/flashing
 media-libs/libglvnd
 media-libs/glfw
 "

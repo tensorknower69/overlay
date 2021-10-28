@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>latesight20@protonmail.com</email>
+		<name>tensorknower69</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">jaseg/lolcat</remote-id>
+	</upstream>
+	<use>
+		<flag name="lolcat">Builds the lolcat app</flag>
+		<flag name="censor">Builds the censor app</flag>
+	</use>
+</pkgmetadata>

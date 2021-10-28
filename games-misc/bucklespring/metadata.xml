@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>latesight20@protonmail.com</email>
+		<name>tensorknower69</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">zevv/bucklespring</remote-id>
+	</upstream>
+	<flag name="X">Use <pkg>x11-libs/libXtst</pkg> and <pkg>x11-libs/libX11</pkg> to read input</flag>
+	<flag name="libinput">Use <pkg>dev-libs/libinput</pkg> to read input</flag>
+</pkgmetadata>
+
